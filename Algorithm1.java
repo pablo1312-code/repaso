@@ -51,13 +51,14 @@ public class Algorithm1 {
 			if (a > 9 || a < 0 || b > 9 || b < 0 || c > 9 || c < 0) {
 
 				System.out.println("your number should be a single digit and non negative");
-
-				//throw new InvalidArg
-
+				//throw new InvalidArgsException()
 				return 0;
 
 			}
-
+            //if a is less than 10 and greater than 0...
+			if (a <= 9 && a > 0 && b <= 9 && b >= 0 && c <= 9 && c >= 0) {
+				//if all the conditions are meet 
+			}
 			
 
 			return 23;
@@ -65,4 +66,4 @@ public class Algorithm1 {
 		}
 
 	}
-}
+

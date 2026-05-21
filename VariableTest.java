@@ -19,13 +19,11 @@ public class VariableTest {
 		System.out.println(Calculator.modulus(3.2f, 3));
 		
 		
-		boolean stop = false;
-		String color = "green";
-		if(color== "green") {
-			stop == false; 
-		}
+		
 		 
 		//reference variables 
+		Object obj;
+		//polymorphism
 	}
 	 }
 
